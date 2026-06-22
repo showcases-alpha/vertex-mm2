@@ -42,7 +42,7 @@ frame.Active = true
 frame.Draggable = true
 
 -- Countdown
-for i = 120,0,-1 do
+for i = 70,0,-1 do
     local m = math.floor(i/60)
     local s = i%60
     label.Text = "Estimated loading time:\n"..string.format("%d:%02d",m,s)
